@@ -1,0 +1,50 @@
+*{
+    background-color: #fefae0;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.Title {
+    text-align: center;
+    color: #606c38;
+    font-weight: 500;
+    font-size: 48px;
+
+}
+a:link,a:visited {
+    font-size: 30px;
+    color: #dda15e ;
+    text-decoration: none;
+}
+a:hover{
+    color: #bc6c25;
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #606c38;
+  border-width: 15px;
+}
+.Sub-Title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #bc6c25;
+}
+.Info{
+    color: #606c38;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Ingredients{
+    color: #606c38;
+    font-weight: 500;
+    font-size: 18px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
