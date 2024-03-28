@@ -1,50 +1,66 @@
-*{
+* {
     background-color: #fefae0;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
 }
+
 .Title {
     text-align: center;
     color: #606c38;
-    font-weight: 500;
+    padding: 20px;
+    border: 5px black double;
+    margin: 15px;
+    font-weight: 700;
     font-size: 48px;
 
 }
-a:link,a:visited {
+
+a:link,
+a:visited {
     font-size: 30px;
-    color: #dda15e ;
+    color: #dda15e;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #bc6c25;
 }
-.image{
+
+.image {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #606c38;
-  border-width: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #606c38;
+    border-width: 15px;
 }
-.Sub-Title{
+
+.Sub-Title {
     font-size: 30px;
     font-weight: 500;
     color: #bc6c25;
 }
-.Info{
+
+.Info {
     color: #606c38;
     font-weight: 500;
     font-size: 18px;
 }
-.Ingredients{
+
+.Ingredients {
     color: #606c38;
     font-weight: 500;
     font-size: 18px;
 }
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-    text-align: center;
-  }
+
+.photos {
+    height: 400px;
+    width: 900px;
+    margin: 10px;
+    border: 5px black dotted;
+    padding: 10px;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    margin: 10px auto;
+}
